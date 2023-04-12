@@ -507,7 +507,7 @@ body.dark .search-field input {
 }
 
 .tablinks.activelink::after {
-  width: 50%;
+  width: 100%;
 }
 
 .tabcontents ul li {
