@@ -8,30 +8,21 @@ const body = document.querySelector("body"),
 var darkmodeData = true;
 
 window.addEventListener("DOMContentLoaded", () => {
-  let getMode = localStorage.getItem("mode");
-  if ((getMode && getMode === "dark-mode") || darkmodeData) {
-    body.classList.add("dark");
-    darkmodeData = true;
-  }else{
-    darkmodeData = false;
-  }
-  console.log(`storage: ${window.localStorage.getItem("mode")}`);
+  body.classList.add("dark");
+  modeToggle.classList.toggle("active");
 });
 
 //java script code to toggle dark and light mode
 modeToggle.addEventListener("click", () => {
   modeToggle.classList.toggle("active");
+
   if (darkmodeData) {
-    body.classList.add("dark");
-    localStorage.setItem("mode", "light-mode");
-  } else {
     body.classList.remove("dark");
-    localStorage.setItem("mode", "dark-mode");
+  } else {
+    body.classList.add("dark");
   }
 
   darkmodeData = !darkmodeData;
-
-  console.log(`storage: ${window.localStorage.getItem("mode")}`);
 });
 
 //java script code to toggle search box
