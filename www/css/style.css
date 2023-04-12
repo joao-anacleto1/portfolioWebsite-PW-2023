@@ -347,6 +347,108 @@ body.dark .search-field input {
   font-weight: 600;
 }
 
+/*MEDIA QUERIES HOME*/
+@media (max-width: 790px) {
+  nav .nav-bar .siderbarOpen {
+    display: block;
+  }
+
+  .menu {
+    position: fixed;
+    width: 320px;
+    height: 100%;
+    left: -100%;
+    top: 0;
+    background-color: #2c3333;
+    padding: 20px;
+    z-index: 100;
+    transition: all 0.4 ease;
+  }
+
+  .nav-bar .nav-links {
+    flex-direction: column;
+    padding-top: 30px;
+  }
+
+  nav.active .menu {
+    left: -0%;
+  }
+
+  .nav-links li a {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .menu .logo-toggle {
+    display: block;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo-toggle .siderbarClose {
+    color: var(--pal2-color);
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  nav.active .nav-bar .navLogo a {
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+  .home-img img {
+    display: none;
+  }
+
+  .img-telele {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .img-telele img {
+    width: 300px;
+  }
+
+  .home {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0px 10%;
+    margin-top: 120px;
+  }
+
+  .home-content h1 {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0px;
+  }
+
+  .home-content p {
+    font-size: 11.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn {
+    padding: 12px 0px;
+    border-radius: 40px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 /*ESTILO SECÇÃO ABOUTME*/
 
 .about {
@@ -426,104 +528,23 @@ body.dark .search-field input {
   display: block;
 }
 
-/*MEDIA QUERIES HOME*/
-@media (max-width: 790px) {
-  nav .nav-bar .siderbarOpen {
-    display: block;
-  }
+/*MEDIA QUERIES ABOUTME*/
 
-  .menu {
-    position: fixed;
-    width: 320px;
-    height: 100%;
-    left: -100%;
-    top: 0;
-    background-color: #2c3333;
-    padding: 20px;
-    z-index: 100;
-    transition: all 0.4 ease;
+@media only screen and (max-width: 600px){
+  .subtitle{
+    font-size: 40px;
   }
-
-  .nav-bar .nav-links {
-    flex-direction: column;
-    padding-top: 30px;
+  .aboutcol1, .aboutcol2{
+    flex-basis: 100%;
   }
-
-  nav.active .menu {
-    left: -0%;
+  .aboutcol1{
+    margin-bottom: 30px;
   }
-
-  .nav-links li a {
-    display: block;
-    margin-top: 20px;
+  .aboutcol2{
+    font-size: 14px;
   }
-
-  .menu .logo-toggle {
-    display: block;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .logo-toggle .siderbarClose {
-    color: var(--pal2-color);
-    font-size: 24px;
-    cursor: pointer;
-  }
-
-  nav.active .nav-bar .navLogo a {
-    opacity: 0;
-    transition: all 0.3s ease;
-  }
-  .home-img img {
-    display: none;
-  }
-
-  .img-telele{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
-  }
-
-  .img-telele img{
-    width: 300px;
-  }
-
-  .home {
-    width: 100%;
-    height: 50%;
-    display: flex;
-    align-items: center;
-    padding: 0px 10%;
-    margin-top: 120px;
-  }
-
-  .home-content h1 {
-    font-size: 35px;
-    font-weight: 700;
-    margin: 0px;
-  }
-
-  .home-content p {
-    font-size: 11px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .social-media {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .btn {
-    padding: 12px 0px;
-    border-radius: 40px;
+  .tablinks{
     font-size: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-right: 20px;
   }
 }
