@@ -773,12 +773,7 @@ textarea.input {
 /*MEDIA QUERIE -> PAGINA CONTACT*/
 
 @media (max-width: 850px) {
-
-  .contact-info{
-    
-  }
-
-  .icones{
+  .icones {
     margin-top: -30px;
   }
   .contact {
@@ -835,21 +830,21 @@ textarea.input {
   .social-media p {
     font-size: 0.8rem;
   }
-  .title{
+  .title {
     font-size: 1.15rem;
   }
-  .social-icons a{
+  .social-icons a {
     width: 30px;
     height: 30px;
     line-height: 30px;
   }
-  .icon{
+  .icon {
     width: 23px;
   }
-  .input{
-    padding: 0.45rem 1.2rem,;
+  .input {
+    padding: 0.45rem 1.2rem;
   }
-  .btn{
+  .btn {
     padding: 0.45rem 1.2rem;
   }
 }
