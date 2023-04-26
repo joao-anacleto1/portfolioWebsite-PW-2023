@@ -963,14 +963,13 @@ textarea.input {
 /*CALCULATOR STYLE*/
 
 .calculator-grid {
-  margin-top: 100px;
+  margin-top: -25px;
   display: grid;
   justify-content: center;
   align-content: center;
   min-height: 80vh;
   grid-template-columns: repeat(4, 100px);
   grid-template-rows: minmax(120px, auto) repeat(5, 100px);
-  
 }
 
 
@@ -992,7 +991,7 @@ textarea.input {
   background-color: var(--pal4-color);
 }
 
-.output {
+.output { 
   grid-column: 1 / -1;
   background-color: rgba(0, 0, 0, .75);
   display: flex;
@@ -1020,4 +1019,65 @@ textarea.input {
   .calculator-grid{
     width: 97%;
   }
+}
+
+
+
+/*NOME UTILIZADOR EM 3 SITIOS DIFERENTES STYLE*/
+
+.containerA {
+  display: grid;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 150px 50px 50px 50px; /* Espaçamento top, right, bottom, left */
+}
+
+.containerA h1 {
+  font-size: 48px;
+  text-align: center;
+}
+
+.message {
+  font-size: 24px;
+  text-align: center;
+}
+
+.containerA .input {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 24px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+
+.containerA .button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 24px;
+  background-color: var(--pal6-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.greeting, .alerta , .alerta2 {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: var(--pal2-color);
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+
+/*Imagem com texto inspirador STYLE*/
+
+.imagemIns{
+ padding: 50px 50px 50px 50px;
 }

@@ -77,6 +77,16 @@
       </div>
     </nav>
 
+    <div class="containerA">
+      <h1>Bem-vindo!</h1>
+      <p class="message">Para continuar, escreva o seu nome:</p>
+      <input type="text" id="nome" class="input" />
+      <button id="botao" class="button">Enviar</button>
+      <div id="greeting" class="greeting"></div>
+      <div id="alerta" class="alerta"></div>
+      <div id="alerta2" class="alerta2"></div>
+    </div>
+
     <div class="calculator-grid">
       <div class="output">
         <div data-previous-operand class="previous-operand"></div>
@@ -101,8 +111,23 @@
       <button data-number>0</button>
       <button data-equals class="span-two">=</button>
     </div>
-    <script src="calculator.js" defer></script>
 
+    <div class="imagemIns">
+      <center>
+        <img
+          id="inspirational-image"
+          src="./images/paisagem.png"
+          alt="Inspiration"
+        />
+        <p></p>
+        <button id="inspirational-button">Add inspiring phrase</button>
+      </center>
+    </div>
+
+    <script src="user3.js"></script>
+    <script src="imgTextInsp.js"></script>
+    <script src="calculator.js" defer></script>
+    
     <script src="tab-script.js"></script>
     <script src="dl-script.js"></script>
   </body>
