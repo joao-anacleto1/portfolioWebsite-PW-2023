@@ -409,6 +409,7 @@ body.dark .search-field input {
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .img-telele img {
@@ -1081,3 +1082,45 @@ textarea.input {
 .imagemIns{
  padding: 50px 50px 50px 50px;
 }
+
+
+/*CSS STYLE Footer*/
+
+footer{
+  padding: 40px;
+  background-color: var(--pal2-color);
+}
+
+footer ul{
+  text-align: center;
+  margin-top: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+footer ul li{
+  display: inline-block;
+  padding: 0 20px;
+}
+
+footer ul li a{
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+footer ul li a:hover{
+  opacity: 1;
+}
+
+footer .copyright{
+  font-size: 13px;
+  margin-top: 20px;
+  margin-bottom: -30px;
+  text-align: center;
+  color: #aaa;
+}
+
