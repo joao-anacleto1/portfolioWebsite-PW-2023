@@ -1124,3 +1124,6 @@ footer .copyright{
   color: #aaa;
 }
 
+.footerExtension footer{
+  padding: 70px;
+}
