@@ -40,6 +40,16 @@ body.dark {
   animation: slideRight 1s ease forwards;
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: var(--pal7-color);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--pal2-color);
+  transition: 0.3s;
+}
+
 /*KEYFRAME ANIMATION*/
 
 @keyframes slideRight {
