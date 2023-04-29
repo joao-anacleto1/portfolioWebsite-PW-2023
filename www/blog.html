@@ -49,9 +49,9 @@
             <li><a href="./aboutme.html">About me</a></li>
             <li><a href="./projects.html">Projects</a></li>
             <li><a href="#">Web Programming</a></li>
-            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./blog.html" class="active">Blog</a></li>
             <li><a href="#">About this Website</a></li>
-            <li><a href="./more.html" class="active">More</a></li>
+            <li><a href="./more.html">More</a></li>
             <li><a href="./contact.html">Contact</a></li>
           </ul>
         </div>
@@ -77,68 +77,83 @@
       </div>
     </nav>
 
-    <div class="containerA">
-      <h1>Bem-vindo!</h1>
-      <p class="message">Para continuar, escreva o seu nome:</p>
-      <input type="text" id="nome" class="input" />
-      <button id="botao" class="button">Enviar</button>
-      <div id="greeting" class="greeting"></div>
-      <div id="alerta" class="alerta"></div>
-      <div id="alerta2" class="alerta2"></div>
-    </div>
+    <p></p>
 
-    <div class="calculator-grid">
-      <div class="output">
-        <div data-previous-operand class="previous-operand"></div>
-        <div data-current-operand class="current-operand"></div>
+    <div class="pimg1">
+      <div class="ptext">
+        <span class="border">Blog</span>
       </div>
-      <button data-all-clear class="span-two">AC</button>
-      <button data-delete>DEL</button>
-      <button data-operation>÷</button>
-      <button data-number>1</button>
-      <button data-number>2</button>
-      <button data-number>3</button>
-      <button data-operation>*</button>
-      <button data-number>4</button>
-      <button data-number>5</button>
-      <button data-number>6</button>
-      <button data-operation>+</button>
-      <button data-number>7</button>
-      <button data-number>8</button>
-      <button data-number>9</button>
-      <button data-operation>-</button>
-      <button data-number>.</button>
-      <button data-number>0</button>
-      <button data-equals class="span-two">=</button>
     </div>
 
-    <div class="imagemIns">
-      <center>
-        <img
-          id="inspirational-image"
-          src="./images/paisagem.png"
-          alt="Inspiration"
-        />
-        <p></p>
-        <button id="inspirational-button">Add inspiring phrase</button>
-      </center>
-      <br>
-      <center>
-      <div
-        id="exemplo"
-        onmouseover="mostrarMensagem()"
-        onmouseout="esconderMensagem()"
-      >
-        Passe o seu cursor aqui 🖱️
+    <section class="section section section-light">
+      <h2 class="title-section">Color Hunt</h2>
+      <p>
+        A plataforma
+        <a href="https://colorhunt.co/" class="ligacao">Color Hunt</a> é uma
+        ferramenta valiosa para designers e desenvolvedores que procuram
+        inspiração para as suas paletes de cores. A plataforma oferece uma
+        interface simples e fácil de usar, permitindo que os utilizadores
+        pesquisem paletes de cores por tema ou nome da cor. Além disso, as
+        paletes podem ser salvas e partilhadas com outras pessoas, tornando a
+        plataforma uma ótima opção para colaboração em equipa. A Color Hunt
+        também oferece a opção de fazer o download das paletas em diferentes
+        formatos, tornando a integração com outros softwares de design e
+        desenvolvimento de sites fácil e rápida. Ao usar a plataforma Color Hunt
+        em seus projetos, os designers e desenvolvedores podem economizar tempo
+        e garantir uma aparência consistente e profissional para seus designs,
+        além de encontrar inspiração para novas ideias de paletas de cores.
+      </p>
+    </section>
+
+    <div class="pimg2">
+      <div class="ptext">
+        <span class="border"></span>
       </div>
-    </center>
     </div>
 
-    <script src="./js/onmouse.js"></script>
+    <section class="section section section-dark">
+      <h2 class="title-section">ChatGPT</h2>
+      <p>
+        O <a href="https://chat.openai.com/" class="ligacao">ChatGPT</a> é um
+        modelo de linguagem avançado que usa algoritmos de aprendizado de
+        máquina para gerar texto em vários idiomas e oferecer recursos como
+        resumo de texto, tradução e análise de sentimento. É uma solução
+        poderosa e versátil para quem busca recursos avançados de processamento
+        de linguagem natural em seus projetos.
+      </p>
+    </section>
 
-    <script src="./js/user3.js"></script>
-    <script src="./js/imgTextInsp.js"></script>
-    <script src="./js/calculator.js" defer></script>
+    <div class="pimg3">
+      <div class="ptext">
+        <span class="border"></span>
+      </div>
+    </div>
+
+    <section class="section section section-dark">
+      <h2 class="title-section">Tecnologia Tesla</h2>
+      <p>
+        Este vídeo mostra a tecnologia de condução autónoma da Tesla em ação. É
+        uma tecnologia muito avançada que utiliza sensores e algoritmos para
+        permitir que um carro se conduza sem a intervenção do motorista. É uma
+        tecnologia nova e emocionante que está a ser continuamente desenvolvida
+        e melhorada pela Tesla.
+      </p>
+    </section>
+
+    <div class="pimg4">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/tlThdr3O5Qo"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <div class="ptext">
+        <span class="border"></span>
+      </div>
+    </div>
 
     <script src="./js/tab-script.js"></script>
     <script src="./js/dl-script.js"></script>
