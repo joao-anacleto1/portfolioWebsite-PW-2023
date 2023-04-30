@@ -20,6 +20,7 @@
 }
 
 body {
+  min-height: 100vh;
   width: 100%;
   height: 100vh;
   background-color: var(--back-color);
@@ -65,6 +66,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 /*END*/
+
+/*------------------------------------------------------------------------------*/
 
 /*ESTILO NAVBAR*/
 
@@ -280,6 +283,8 @@ body.dark .search-field input {
   display: none;
 }
 
+/*------------------------------------------------------------------------------*/
+
 /*ESTILO SECÇÃO HOME*/
 
 .home {
@@ -463,10 +468,12 @@ body.dark .search-field input {
   }
 }
 
+/*------------------------------------------------------------------------------*/
+
 /*ESTILO SECÇÃO ABOUTME*/
 
 .about {
-  padding: 160px 80px 0;
+  padding: 160px 80px ;
   color: var(--wht-color);
 }
 
@@ -564,11 +571,12 @@ body.dark .search-field input {
   }
 }
 
+/*------------------------------------------------------------------------------*/
+
 /*PAGINA CONTACT*/
 
 .contact {
   margin-top: 50px;
-  position: fixed;
   width: 100%;
   min-height: 100vh;
   padding: 2rem;
@@ -860,6 +868,8 @@ textarea.input {
   }
 }
 
+/*------------------------------------------------------------------------------*/
+
 /*STYLE BLOG PAGE*/
 
 .pimg1 {
@@ -940,6 +950,64 @@ textarea.input {
   text-decoration: none;
   color: black;
   text-decoration-style: solid;
+}
+
+/*------------------------------------------------------------------------------*/
+
+/*STYLE PROJECT'S PAGE*/
+
+section .projects{
+  width: 80%;
+  margin: 80px auto;
+}
+
+.titleM{
+  text-align: center;
+  font-size: 4vmin;
+  color: var(--pal2-color);
+  padding: 150px;
+  margin-bottom: -50px;
+}
+
+.rowM{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.rowM .colM{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects .rowM{
+  margin-top: 50px;
+}
+
+h4{
+  font-size: 3vmin;
+  color: var(--pal7-color);
+  margin: 20px auto;
+}
+
+.projects p{
+  padding: 0px 40px;
+}
+
+/*MEDIA QUERY STYLE PROJECT'S PAGE*/
+
+@media only screen and (max-width:850px){
+  .rowM{
+    flex-direction: column;
+  }
+  .colM img{
+    max-width: 90%;
+  }
+  .rowM .colM{
+    margin: 20px auto;
+  }
 }
 
 /*------------------------------------------------------------------------------*/
@@ -1070,8 +1138,7 @@ textarea.input {
 /*CSS STYLE Footer*/
 
 footer {
-  position: fixed;
-  bottom: 0;
+  position: sticky;
   width: 100%;
   background-color: #f5f5f5;
   padding: 10px;
