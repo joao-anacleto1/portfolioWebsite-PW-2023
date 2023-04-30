@@ -438,7 +438,7 @@ body.dark .search-field input {
         display: flex;
         align-items: center;
         padding: 0px 10%;
-        margin-top: 140px;
+        margin-top: 150px;
     }
 
     .home-content h1 {
@@ -448,7 +448,7 @@ body.dark .search-field input {
     }
 
     .home-content p {
-        font-size: 11.5px;
+        font-size: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -467,6 +467,7 @@ body.dark .search-field input {
         align-items: center;
         justify-content: center;
     }
+
 }
 
 /*------------------------------------------------------------------------------*/
@@ -917,6 +918,7 @@ textarea.input {
     }
     .contact {
         position: relative;
+        padding-top: 100px;
     }
 
     .form {
@@ -1258,7 +1260,6 @@ h4 {
 }
 
 /*------------------------------------------------------------------------------*/
-
 
 /*CSS STYLE Footer*/
 
