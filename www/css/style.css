@@ -877,7 +877,7 @@ textarea.input {
   min-height: 400px;
 }
 
-.pimg4{
+.pimg4 {
   position: relative;
   width: 100%;
   height: 0;
@@ -895,8 +895,7 @@ textarea.input {
 
 .pimg1,
 .pimg2,
-.pimg3
-.pimg4 {
+.pimg3 .pimg4 {
   position: relative;
   opacity: 0.7;
   background-position: center;
@@ -937,7 +936,7 @@ textarea.input {
   text-transform: uppercase;
 }
 
-.ligacao{
+.ligacao {
   text-decoration: none;
   color: black;
   text-decoration-style: solid;
@@ -1071,6 +1070,12 @@ textarea.input {
 /*CSS STYLE Footer*/
 
 footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 10px;
+  text-align: center;
   padding: 40px;
   background-color: var(--pal2-color);
 }
