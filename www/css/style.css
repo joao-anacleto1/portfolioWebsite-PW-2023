@@ -473,7 +473,7 @@ body.dark .search-field input {
 /*ESTILO SECÇÃO ABOUTME*/
 
 .about {
-  padding: 160px 80px ;
+  padding: 160px 80px;
   color: var(--wht-color);
 }
 
@@ -552,6 +552,9 @@ body.dark .search-field input {
 /*MEDIA QUERIES ABOUTME*/
 
 @media only screen and (max-width: 600px) {
+  .about {
+    padding: 160px 50px;
+  }
   .subtitle {
     font-size: 40px;
   }
@@ -570,6 +573,10 @@ body.dark .search-field input {
     margin-right: 20px;
   }
 }
+
+/*------------------------------------------------------------------------------*/
+
+/*PAGINA MORE*/
 
 /*------------------------------------------------------------------------------*/
 
@@ -952,16 +959,26 @@ textarea.input {
   text-decoration-style: solid;
 }
 
+@media (max-width: 850px) {
+  .section{
+    padding: 40px;
+    line-height: 20px;
+  }
+  .pBlog{
+    font-size: 16px;
+  }
+}
+
 /*------------------------------------------------------------------------------*/
 
 /*STYLE PROJECT'S PAGE*/
 
-section .projects{
+section .projects {
   width: 80%;
   margin: 80px auto;
 }
 
-.titleM{
+.titleM {
   text-align: center;
   font-size: 4vmin;
   color: var(--pal2-color);
@@ -969,43 +986,43 @@ section .projects{
   margin-bottom: -50px;
 }
 
-.rowM{
+.rowM {
   display: flex;
   align-items: center;
   width: 100%;
   justify-content: space-between;
 }
 
-.rowM .colM{
+.rowM .colM {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.projects .rowM{
+.projects .rowM {
   margin-top: 50px;
 }
 
-h4{
+h4 {
   font-size: 3vmin;
   color: var(--pal7-color);
   margin: 20px auto;
 }
 
-.projects p{
+.projects p {
   padding: 0px 40px;
 }
 
 /*MEDIA QUERY STYLE PROJECT'S PAGE*/
 
-@media only screen and (max-width:850px){
-  .rowM{
+@media only screen and (max-width: 850px) {
+  .rowM {
     flex-direction: column;
   }
-  .colM img{
+  .colM img {
     max-width: 90%;
   }
-  .rowM .colM{
+  .rowM .colM {
     margin: 20px auto;
   }
 }
